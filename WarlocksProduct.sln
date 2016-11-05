@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WarlocksProduct", "WarlocksProduct\WarlocksProduct.csproj", "{6322A8BA-E990-4FE3-AB29-244B08CFA47D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WarlocksProduct", "WarlocksProduct\WarlocksProduct.csproj", "{9D06BF53-EE54-4B62-9799-7F209DEEA222}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{6322A8BA-E990-4FE3-AB29-244B08CFA47D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6322A8BA-E990-4FE3-AB29-244B08CFA47D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6322A8BA-E990-4FE3-AB29-244B08CFA47D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6322A8BA-E990-4FE3-AB29-244B08CFA47D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D06BF53-EE54-4B62-9799-7F209DEEA222}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D06BF53-EE54-4B62-9799-7F209DEEA222}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D06BF53-EE54-4B62-9799-7F209DEEA222}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D06BF53-EE54-4B62-9799-7F209DEEA222}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

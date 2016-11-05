@@ -1,1 +1,1 @@
-﻿<%@ Application Codebehind="Global.asax.cs" Inherits="WarlocksProduct.Global" Language="C#" %>
+﻿<%@ Application Codebehind="Global.asax.cs" Inherits="WarlocksProduct.MvcApplication" Language="C#" %>
