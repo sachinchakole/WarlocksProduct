@@ -4,11 +4,11 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
-namespace WarlocksProduct.Controllers
+namespace WarlocksProduct.Areas.Admin.Controllers
 {
-    public class ProductsController : Controller
+    public class ProductController : Controller
     {
-        // GET: Products
+        // GET: Admin/Product
         public ActionResult Index()
         {
             return View();

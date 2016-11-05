@@ -5,14 +5,14 @@ namespace WarlocksProduct.Migrations
     using System.Data.Entity.Migrations;
     using System.Linq;
 
-    internal sealed class Configuration : DbMigrationsConfiguration<WarlocksProduct.DataContext.AdminDbContext>
+    internal sealed class Configuration : DbMigrationsConfiguration<WarlocksProduct.DataContext.WarlocksDbContext>
     {
         public Configuration()
         {
             AutomaticMigrationsEnabled = true;
         }
 
-        protected override void Seed(WarlocksProduct.DataContext.AdminDbContext context)
+        protected override void Seed(WarlocksProduct.DataContext.WarlocksDbContext context)
         {
             //  This method will be called after migrating to the latest version.
 

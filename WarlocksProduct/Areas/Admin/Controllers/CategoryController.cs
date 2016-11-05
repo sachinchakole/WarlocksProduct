@@ -6,9 +6,9 @@ using System.Web.Mvc;
 
 namespace WarlocksProduct.Areas.Admin.Controllers
 {
-    public class HomeController : Controller
+    public class CategoryController : Controller
     {
-        // GET: Admin/Home
+        // GET: Admin/Category
         public ActionResult Index()
         {
             return View();
