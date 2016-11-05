@@ -151,6 +151,7 @@
     <Compile Include="Areas\Admin\AdminAreaRegistration.cs" />
     <Compile Include="Areas\Admin\Controllers\HomeController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\ProductsController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -159,10 +160,38 @@
   <ItemGroup>
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\Images\bakery.png" />
+    <Content Include="Content\Images\bakeryicon.png" />
+    <Content Include="Content\Images\dairy.png" />
+    <Content Include="Content\Images\dairyicon.png" />
+    <Content Include="Content\Images\fruitandveg.png" />
+    <Content Include="Content\Images\fruiticon.png" />
+    <Content Include="Content\Images\meat.png" />
+    <Content Include="Content\Images\meaticon.png" />
+    <Content Include="Content\Images\Products\Broccoli.png" />
+    <Content Include="Content\Images\Products\Butter.png" />
+    <Content Include="Content\Images\Products\Cheese.png" />
+    <Content Include="Content\Images\Products\Chicken leg.png" />
+    <Content Include="Content\Images\Products\Chocolate cookies.png" />
+    <Content Include="Content\Images\Products\Corn on the cob.png" />
+    <Content Include="Content\Images\Products\Free range Eggs.png" />
+    <Content Include="Content\Images\Products\Milk.png" />
+    <Content Include="Content\Images\Products\Organic Meat Patties.png" />
+    <Content Include="Content\Images\Products\Parma ham.png" />
+    <Content Include="Content\Images\Products\Pumpkin seed bun.png" />
+    <Content Include="Content\Images\Products\Red currants.png" />
+    <Content Include="Content\Images\Products\Sausages.png" />
+    <Content Include="Content\Images\Products\Seedless watermelon.png" />
+    <Content Include="Content\Images\Products\Sesame seed bagel.png" />
+    <Content Include="Content\Images\Products\Sunflower seed loaf.png" />
+    <Content Include="Content\Images\shoping_cart.png" />
+    <Content Include="Scripts\ResponsiveSlider.js" />
+    <Content Include="Content\Site.css">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
-    <Content Include="Content\Site.css" />
     <Content Include="Scripts\ai.0.22.19-build00125.js" />
     <Content Include="Scripts\ai.0.22.19-build00125.min.js" />
     <Content Include="Scripts\bootstrap.js" />
@@ -200,6 +229,8 @@
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Products\Index.cshtml" />
+    <Content Include="Views\Category\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
