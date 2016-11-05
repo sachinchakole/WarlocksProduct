@@ -6,14 +6,10 @@ using System.Web.Mvc;
 
 namespace WarlocksProduct.Controllers
 {
-    public class HomeController : Controller
+    public class ProductsController : Controller
     {
-        public ActionResult Index()
-        {
-            return View();
-        }
-
-        public ActionResult Products(int id)
+        // GET: Products
+        public ActionResult Category(int id)
         {
             return View();
         }
